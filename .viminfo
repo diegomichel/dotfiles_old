@@ -1,0 +1,312 @@
+# Vim 7.4 generó este archivo "viminfo".
+# Puede editarlo, ¡sólo si tiene cuidado!
+
+# Valor de 'encoding' cuando se escribió este archivo
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Último Patrón de búsqueda:
+~MSle0~/_
+
+# Última cadena de sustitución:
+$
+
+# Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq
+:/_
+:/ 
+:7 
+:/a
+:a
+:.
+:q
+:h todo
+:/l
+:/.
+:d
+:u
+:r
+:R
+:/x
+:\x
+:x
+:/(
+:/
+:\?
+:\
+:/d
+:\d
+:q!
+:/bg
+:w
+:/backg
+
+# Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? _
+?  
+? a
+? ^x 
+? ^(\w)\s\+
+? ^\(([a-zA-Z]) \)\?
+? l
+? .
+? ^\(([a-zA-Z]) \)\?\(\d\{2,4\}-\d\{2\}-\d\{2\} \)\?
+? x
+? (
+? d
+? bg
+? backg
+
+# Historia de Expresión (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
+
+# Registros:
+""1	LINE	0
+	(A) 2015-09-06 Short the file on dates
+"2	LINE	0
+	(A) 2015-09-06 Move the completed task to done.txt
+"3	LINE	0
+	(A) 2015-09-06 Mark all the ask as done
+"4	LINE	0
+	(A) 2015-09-06 Hola :D
+"5	LINE	0
+	(A) 2015-09-06 Insertar una tarea con la fecha de hoy
+"6	LINE	0
+	(A) 2015-09-06 Increase the priority of the current line
+"7	LINE	0
+	(E) 2015-09-06 Decrease the priority of the current line
+"8	LINE	0
+	
+"9	LINE	0
+	x 2015-09-06 2015-09-06 Mark the current task as done
+"-	CHAR	0
+	 
+
+# Marcas en el archivo:
+'0  1  0  ~/learning/todo.txt
+'1  1  1  ~/learning/todo.txt
+'2  1  34  ~/learning/todo.txt
+'3  21  190  ~/.bashrc
+'4  7  31  ~/.bash-powerline.sh
+'5  29  39  ~/.bash-powerline.sh
+'6  17  4  ~/.bash-powerline.sh
+'7  20  0  ~/.bashrc
+'8  1  0  ~/scripts/solarized
+'9  115  0  /tmp/st/config.h
+
+# Lista de saltos (el más reciente va primero):
+-'  1  0  ~/learning/todo.txt
+-'  21  190  ~/.bashrc
+-'  20  0  ~/.bashrc
+-'  7  31  ~/.bash-powerline.sh
+-'  29  4  ~/.bash-powerline.sh
+-'  17  4  ~/.bash-powerline.sh
+-'  110  0  ~/.bash-powerline.sh
+-'  19  0  ~/.bashrc
+-'  1  0  ~/scripts/solarized
+-'  115  0  /tmp/st/config.h
+-'  8  0  /tmp/st/config.h
+-'  9  0  /tmp/st/config.h
+-'  1  0  /tmp/st/config.h
+-'  1  1  ~/.Xdefaults
+-'  7  1  ~/.Xdefaults
+-'  1  0  ~/.bash-powerline.sh
+-'  1  0  ~/.bash_profile
+-'  1  0  ~/.bashrc
+-'  58  2  ~/.config/awesome/themes/default/theme.lua
+-'  1  0  ~/.config/awesome/themes/default/theme.lua
+-'  228  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  1  0  ~/seder
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  67  38  ~/.tmux.conf
+-'  1  0  ~/.tmux.conf
+-'  12  0  ~/seder
+-'  7  0  ~/learning/todo.txt
+-'  8  0  ~/learning/todo.txt
+-'  6  0  ~/learning/todo.txt
+-'  5  17  ~/learning/todo.txt
+-'  3  0  ~/learning/todo.txt
+-'  4  0  ~/learning/todo.txt
+-'  2  0  ~/learning/todo.txt
+-'  9  0  ~/learning/todo.txt
+-'  21  190  ~/.bashrc
+-'  20  0  ~/.bashrc
+-'  7  31  ~/.bash-powerline.sh
+-'  29  4  ~/.bash-powerline.sh
+-'  17  4  ~/.bash-powerline.sh
+-'  110  0  ~/.bash-powerline.sh
+-'  19  0  ~/.bashrc
+-'  1  0  ~/scripts/solarized
+-'  115  0  /tmp/st/config.h
+-'  8  0  /tmp/st/config.h
+-'  9  0  /tmp/st/config.h
+-'  1  0  /tmp/st/config.h
+-'  1  1  ~/.Xdefaults
+-'  7  1  ~/.Xdefaults
+-'  1  0  ~/.bash-powerline.sh
+
+# Historia de las marcas en los archivos (de la más reciente a la más antigua):
+
+> ~/learning/todo.txt
+	"	1	0
+	.	1	0
+	+	1	38
+	+	1	34
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	1
+	+	1	1
+	+	1	18
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	0
+
+> /usr/share/vim/vim74/doc/todo.txt
+	"	1141	0
+
+> ~/.bashrc
+	"	21	190
+	^	21	191
+	.	21	201
+	+	21	0
+	+	19	0
+	+	20	0
+	+	21	201
+	+	21	201
+	+	22	0
+	+	21	201
+
+> ~/.bash-powerline.sh
+	"	7	31
+	^	7	32
+	.	7	31
+	+	29	39
+	+	7	31
+
+> ~/scripts/solarized
+	"	1	0
+	^	1	1
+	.	2	0
+	+	2	0
+
+> /tmp/st/config.h
+	"	74	8
+	^	74	9
+	.	74	8
+	+	8	22
+	+	74	8
+
+> ~/.Xdefaults
+	"	1	1
+	^	7	28
+	.	1	0
+	+	7	27
+	+	1	0
+
+> ~/.bash_profile
+	"	1	0
+
+> ~/.config/awesome/themes/default/theme.lua
+	"	58	2
+	^	76	3
+	.	76	2
+	+	20	22
+	+	76	2
+
+> ~/.vimrc
+	"	228	0
+	^	228	83
+	.	228	82
+	+	228	82
+
+> ~/seder
+	"	12	0
+
+> ~/.tmux.conf
+	"	67	38
+	^	67	39
+	.	67	38
+	+	67	0
+	+	66	37
+	+	67	38
