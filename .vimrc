@@ -19,6 +19,7 @@ set bs=2                " Allow backspacing over everything in insert mode
 set ai                  " Auto-indenting off to allow pasting to work by default 
 set history=50          " keep 50 lines of command history
 set ruler               " Show the cursor position all the time
+set autoindent
 set noexpandtab
 set ts=4 sw=4
 
@@ -226,3 +227,94 @@ hi StatusLine term=reverse ctermbg=white ctermfg=darkblue gui=undercurl guisp=Ma
 set laststatus=2 " Always display the statusline in all windows
 set showtabline=2 " Always display the tabline, even if there is only one tab
 set noshowmode " Hide the default mode text (e.g. -- INSERT -- below the statusline
+
+" High color column
+highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%81v', 100)
+"====[ Make the 81st column stand out ]====================
+    " OR ELSE just the 81st column of wide lines...
+    highlight ColorColumn ctermbg=magenta
+    call matchadd('ColorColumn', '\%81v', 100)
+"=====[ Highlight matches when jumping to next ]=============
+
+    " This rewires n and N to do the highlighing...
+    nnoremap <silent> n   n:call HLNext(0.4)<cr>
+    nnoremap <silent> N   N:call HLNext(0.4)<cr>
+
+
+    " OR ELSE just highlight the match in red...
+    function! HLNext (blinktime)
+        highlight WhiteOnRed ctermfg=white ctermbg=red
+		let [bufnum, lnum, col, off] = getpos('.')
+        let matchlen = strlen(matchstr(strpart(getline('.'),col-1),@/))
+        let target_pat = '\c\%#\%('.@/.'\)'
+        let ring = matchadd('WhiteOnRed', target_pat, 101)
+        redraw
+        exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+        call matchdelete(ring)
+        redraw
+    endfunction
+
+
+"====[ Make tabs, trailing whitespace, and non-breaking spaces visible ]======
+
+    exec "set listchars=trail:\uBB,nbsp:~"
+    set list
+
+
+"====[ Swap : and ; to make colon commands easier to type ]======
+
+"    nnoremap  ;  :
+"    nnoremap  :  ;
+
+
+"====[ Swap v and CTRL-V, because Block mode is more useful that Visual mode "]======
+
+    nnoremap    v   <C-V>
+    nnoremap <C-V>     v
+
+    vnoremap    v   <C-V>
+    vnoremap <C-V>     v
+
+
+"====[ Always turn on syntax highlighting for diffs ]=========================
+
+    " EITHER select by the file-suffix directly...
+    augroup PatchDiffHighlight
+        autocmd!
+        autocmd BufEnter  *.patch,*.rej,*.diff   syntax enable
+    augroup END
+
+    " OR ELSE use the filetype mechanism to select automatically...
+    filetype on
+    augroup PatchDiffHighlight
+        autocmd!
+        autocmd FileType  diff   syntax enable
+    augroup END
+
+
+"====[ Open any file with a pre-existing swapfile in readonly mode "]=========
+
+    augroup NoSimultaneousEdits
+        autocmd!
+        autocmd SwapExists * let v:swapchoice = 'o'
+        autocmd SwapExists * echomsg ErrorMsg
+        autocmd SwapExists * echo 'Duplicate edit session (readonly)'
+        autocmd SwapExists * echohl None
+        autocmd SwapExists * sleep 2
+    augroup END
+
+    " Also consider the autoswap_mac.vim plugin (but beware its limitations)
+
+
+"====[ Mappings to activate spell-checking alternatives ]================
+
+    nmap  ;s     :set invspell spelllang=en<CR>
+    nmap  ;ss    :set    spell spelllang=en-basic<CR>
+
+    " To create the en-basic (or any other new) spelling list:
+    "
+    "     :mkspell  ~/.vim/spell/en-basic  basic_english_words.txt
+    "
+    " See :help mkspell
+

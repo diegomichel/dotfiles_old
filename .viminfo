@@ -8,20 +8,45 @@
 # hlsearch on (H) or off (h):
 ~H
 # Último Patrón de búsqueda:
-~MSle0~/_
+~MSle0~/noexpand
 
 # Última cadena de sustitución:
 $
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:q!
 :wq
+:q
+:set tabstop=2 shiftwidth=2 expandtab
+:set tabspot=2 shiftwidth=2 expandtab
+:tabstop
+:/noexpand
+:/autoind
+:autoin
+:/tabs
+:/a
+:/aa
+:aazzz
+:/t
+:wq!
+:w
+:/shut
+:/shit
+:/13432
+:/x
+:help yank
+:/
+:help Visual-Mode
+:\col
+:\cl
+:\$
+:help move
+:wq
 :/_
 :/ 
 :7 
-:/a
 :a
 :.
-:q
 :h todo
 :/l
 :/.
@@ -29,31 +54,36 @@ $
 :u
 :r
 :R
-:/x
 :\x
 :x
 :/(
-:/
 :\?
 :\
 :/d
 :\d
-:q!
 :/bg
-:w
 :/backg
 
 # Historia de Cadena de búsqueda (de lo más nuevo a lo más antiguo):
+? noexpand
+? autoind
+? tabs
+? a
+? aa
+? t
+? ^(\w)\s\+
+? shut
+? shit
+? 13432
+? x
+? ^\(([a-zA-Z]) \)\?\(\d\{2,4\}-\d\{2\}-\d\{2\} \)\?
+?/col
+? ^\(([a-zA-Z]) \)\?
 ? _
 ?  
-? a
 ? ^x 
-? ^(\w)\s\+
-? ^\(([a-zA-Z]) \)\?
 ? l
 ? .
-? ^\(([a-zA-Z]) \)\?\(\d\{2,4\}-\d\{2\}-\d\{2\} \)\?
-? x
 ? (
 ? d
 ? bg
@@ -66,40 +96,99 @@ $
 # Historia de Línea de entrada (de lo más nuevo a lo más antiguo):
 
 # Registros:
-""1	LINE	0
-	(A) 2015-09-06 Short the file on dates
-"2	LINE	0
-	(A) 2015-09-06 Move the completed task to done.txt
-"3	LINE	0
-	(A) 2015-09-06 Mark all the ask as done
-"4	LINE	0
-	(A) 2015-09-06 Hola :D
-"5	LINE	0
-	(A) 2015-09-06 Insertar una tarea con la fecha de hoy
-"6	LINE	0
-	(A) 2015-09-06 Increase the priority of the current line
-"7	LINE	0
-	(E) 2015-09-06 Decrease the priority of the current line
-"8	LINE	0
+"0	CHAR	0
+	if [ $x1 -gt $x2]; then
+		echo ""
+	fi
 	
+	
+"1	LINE	0
+	
+"2	LINE	0
+	    endfunction
+"3	LINE	0
+	        redraw
+"4	LINE	0
+	        call matchdelete(ring)
+"5	LINE	0
+	        exec 'sleep ' . float2nr(a:blinktime * 1000) . 'm'
+"6	LINE	0
+	        redraw
+"7	LINE	0
+	        let ring = matchadd('BlackOnBlack', hide_pat, 101)
+"8	LINE	0
+	                \ . '\%>'.lnum.'l.'
 "9	LINE	0
-	x 2015-09-06 2015-09-06 Mark the current task as done
-"-	CHAR	0
-	 
+	                \ . '\|'
+""-	CHAR	0
+	,
 
 # Marcas en el archivo:
-'0  1  0  ~/learning/todo.txt
-'1  1  1  ~/learning/todo.txt
-'2  1  34  ~/learning/todo.txt
-'3  21  190  ~/.bashrc
-'4  7  31  ~/.bash-powerline.sh
-'5  29  39  ~/.bash-powerline.sh
-'6  17  4  ~/.bash-powerline.sh
-'7  20  0  ~/.bashrc
-'8  1  0  ~/scripts/solarized
-'9  115  0  /tmp/st/config.h
+'0  262  11  ~/.vimrc
+'1  261  24  ~/.vimrc
+'2  23  5  ~/.vimrc
+'3  306  7  ~/.vimrc
+'4  58  0  ~/.vimrc
+'5  319  0  ~/.vimrc
+'6  22  13  ~/.vimrc
+'7  259  12  ~/.vimrc
+'8  247  27  ~/.vimrc
+'9  245  4  ~/.vimrc
 
 # Lista de saltos (el más reciente va primero):
+-'  262  11  ~/.vimrc
+-'  261  4  ~/.vimrc
+-'  23  0  ~/.vimrc
+-'  306  0  ~/.vimrc
+-'  58  0  ~/.vimrc
+-'  319  0  ~/.vimrc
+-'  22  0  ~/.vimrc
+-'  259  0  ~/.vimrc
+-'  255  12  ~/.vimrc
+-'  254  14  ~/.vimrc
+-'  253  33  ~/.vimrc
+-'  252  12  ~/.vimrc
+-'  251  50  ~/.vimrc
+-'  250  20  ~/.vimrc
+-'  249  14  ~/.vimrc
+-'  248  35  ~/.vimrc
+-'  247  8  ~/.vimrc
+-'  245  29  ~/.vimrc
+-'  220  0  ~/.vimrc
+-'  219  0  ~/.vimrc
+-'  238  0  ~/.vimrc
+-'  8  0  ~/.vimrc
+-'  23  2  ~/Downloads/Instantly_Better_Vim_2013/additions_for_your_.vimrc
+-'  1  0  ~/Downloads/Instantly_Better_Vim_2013/additions_for_your_.vimrc
+-'  233  0  ~/.vimrc
+-'  1  0  ~/.vimrc
+-'  12  30  /etc/portage/package.use
+-'  1  0  /etc/portage/package.use
+-'  10  110  ~/learning/bash/todo.txt
+-'  9  0  ~/learning/bash/todo.txt
+-'  2  49  ~/learning/bash/practica/setme
+-'  3  0  ~/learning/bash/practica/setme
+-'  1  0  ~/learning/bash/practica/setme
+-'  68  2  /etc/acpi/actions/powerbtn.sh
+-'  67  2  /etc/acpi/actions/powerbtn.sh
+-'  6  28  /etc/acpi/actions/powerbtn.sh
+-'  1  0  /etc/acpi/actions/powerbtn.sh
+-'  1  4  /etc/acpi/default.sh
+-'  1  0  /etc/acpi/events/default
+-'  1  0  /etc/acpi/events/lid
+-'  40  0  ~/.i3/config.keycodes
+-'  1  0  ~/.i3/config.keycodes
+-'  179  0  ~/.i3/config
+-'  1  0  ~/.i3/config
+-'  3  1  ~/learning/bash/todo.txt
+-'  1  0  ~/learning/bash/todo.txt
+-'  8  2  ~/learning/bash/todo.txt
+-'  7  30  ~/learning/bash/todo.txt
+-'  6  92  ~/learning/bash/todo.txt
+-'  5  0  ~/learning/bash/todo.txt
+-'  4  0  ~/learning/bash/todo.txt
+-'  2  0  ~/learning/bash/todo.txt
+-'  11  0  ~/learning/bash/todo.txt
 -'  1  0  ~/learning/todo.txt
 -'  21  190  ~/.bashrc
 -'  20  0  ~/.bashrc
@@ -119,194 +208,291 @@ $
 -'  1  0  ~/.bash_profile
 -'  1  0  ~/.bashrc
 -'  58  2  ~/.config/awesome/themes/default/theme.lua
--'  1  0  ~/.config/awesome/themes/default/theme.lua
--'  228  0  ~/.vimrc
--'  1  0  ~/.vimrc
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  1  0  ~/seder
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  67  38  ~/.tmux.conf
--'  1  0  ~/.tmux.conf
--'  12  0  ~/seder
--'  7  0  ~/learning/todo.txt
--'  8  0  ~/learning/todo.txt
--'  6  0  ~/learning/todo.txt
--'  5  17  ~/learning/todo.txt
--'  3  0  ~/learning/todo.txt
--'  4  0  ~/learning/todo.txt
--'  2  0  ~/learning/todo.txt
--'  9  0  ~/learning/todo.txt
--'  21  190  ~/.bashrc
--'  20  0  ~/.bashrc
--'  7  31  ~/.bash-powerline.sh
--'  29  4  ~/.bash-powerline.sh
--'  17  4  ~/.bash-powerline.sh
--'  110  0  ~/.bash-powerline.sh
--'  19  0  ~/.bashrc
--'  1  0  ~/scripts/solarized
--'  115  0  /tmp/st/config.h
--'  8  0  /tmp/st/config.h
--'  9  0  /tmp/st/config.h
--'  1  0  /tmp/st/config.h
--'  1  1  ~/.Xdefaults
--'  7  1  ~/.Xdefaults
--'  1  0  ~/.bash-powerline.sh
+-'  258  12  ~/.vimrc
+-'  246  8  ~/.vimrc
+-'  244  29  ~/.vimrc
+-'  218  0  ~/.vimrc
+-'  237  0  ~/.vimrc
+-'  23  2  ~/Downloads/Instantly_Better_Vim_2013/additions_for_your_.vimrc
+-'  1  0  ~/Downloads/Instantly_Better_Vim_2013/additions_for_your_.vimrc
+-'  232  0  ~/.vimrc
+-'  12  30  /etc/portage/package.use
+-'  1  0  /etc/portage/package.use
+-'  10  110  ~/learning/bash/todo.txt
+-'  9  0  ~/learning/bash/todo.txt
+-'  2  49  ~/learning/bash/practica/setme
+-'  3  0  ~/learning/bash/practica/setme
+-'  1  0  ~/learning/bash/practica/setme
+-'  68  2  /etc/acpi/actions/powerbtn.sh
+-'  67  2  /etc/acpi/actions/powerbtn.sh
+-'  6  28  /etc/acpi/actions/powerbtn.sh
+-'  1  0  /etc/acpi/actions/powerbtn.sh
+-'  1  4  /etc/acpi/default.sh
+-'  1  0  /etc/acpi/events/default
+-'  320  0  ~/.vimrc
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
-> ~/learning/todo.txt
+> ~/.vimrc
+	"	262	11
+	^	262	12
+	.	262	12
+	+	229	83
+	+	233	34
+	+	235	0
+	+	238	0
+	+	245	0
+	+	248	1
+	+	247	60
+	+	247	58
+	+	247	58
+	+	248	0
+	+	247	27
+	+	22	13
+	+	248	1
+	+	257	0
+	+	319	1
+	+	23	4
+	+	24	13
+	+	306	0
+	+	304	7
+	+	23	5
+	+	25	0
+	+	261	24
+	+	262	12
+
+> ~/Downloads/Instantly_Better_Vim_2013/additions_for_your_.vimrc
+	"	82	0
+	.	23	0
+	+	11	0
+	+	23	0
+
+> /etc/portage/package.use
+	"	12	30
+	^	12	31
+	.	12	25
+	+	12	25
+
+> ~/learning/bash/todo.txt
+	"	10	110
+	^	10	111
+	.	10	109
+	+	1	91
+	+	11	0
+	+	1	90
+	+	1	91
+	+	1	91
+	+	1	91
+	+	2	0
+	+	1	0
+	+	2	11
+	+	1	19
+	+	2	10
+	+	1	79
+	+	2	153
+	+	11	0
+	+	2	154
+	+	11	0
+	+	3	104
+	+	3	0
+	+	5	0
+	+	4	0
+	+	5	46
+	+	4	52
+	+	6	92
+	+	6	2
+	+	7	51
+	+	8	118
+	+	8	0
+	+	9	32
+	+	10	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	4	0
+	+	5	0
+	+	7	11
+	+	6	0
+	+	7	0
+	+	8	0
+	+	9	108
+	+	8	0
+	+	9	0
+	+	10	109
+
+> ~/learning/bash/practica/setme
+	"	2	49
+	^	2	50
+	.	2	49
+	+	3	1
+	+	2	49
+
+> /etc/acpi/actions/powerbtn.sh
+	"	68	2
+	^	68	3
+
+> /etc/acpi/default.sh
+	"	1	4
+
+> /etc/acpi/events/default
 	"	1	0
-	.	1	0
-	+	1	38
-	+	1	34
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	1
-	+	1	1
-	+	1	18
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
-	+	1	0
 
-> /usr/share/vim/vim74/doc/todo.txt
-	"	1141	0
+> /etc/acpi/events/lid
+	"	1	0
 
-> ~/.bashrc
-	"	21	190
-	^	21	191
-	.	21	201
-	+	21	0
+> ~/.i3/config.keycodes
+	"	40	0
+
+> ~/.i3/config
+	"	179	0
+
+> ~/learning/bash/practica/supercompare.sh
+	"	19	16
+	^	19	17
+	.	19	16
+	+	5	7
+	+	6	1
+	+	4	15
+	+	6	2
+	+	7	0
+	+	27	0
+	+	10	0
+	+	13	0
+	+	16	0
 	+	19	0
 	+	20	0
-	+	21	201
-	+	21	201
-	+	22	0
-	+	21	201
+	+	20	0
+	+	20	0
+	+	20	0
+	+	7	10
+	+	10	11
+	+	13	11
+	+	16	11
+	+	19	11
+	+	5	28
+	+	8	26
+	+	11	25
+	+	14	29
+	+	17	36
+	+	20	33
+	+	1	4
+	+	4	16
+	+	7	16
+	+	10	16
+	+	13	16
+	+	16	16
+	+	19	16
 
-> ~/.bash-powerline.sh
-	"	7	31
-	^	7	32
-	.	7	31
-	+	29	39
-	+	7	31
+> /usr/share/vim/vim74/doc/visual.txt
+	"	309	0
 
-> ~/scripts/solarized
+> /usr/share/vim/vim74/doc/change.txt
+	"	951	44
+
+> ~/learning/bash/practica/compare.sh
+	"	5	1
+	^	5	2
+	.	5	1
+	+	3	28
+	+	4	23
+	+	5	1
+
+> ~/learning/bash/practica/suma.sh
+	"	4	5
+	^	4	6
+	.	4	5
+	+	4	9
+	+	1	0
+	+	3	4
+	+	1	5
+	+	4	0
+	+	3	0
+	+	4	5
+
+> ~/learning/bash/practica/col.sh
+	"	1	4
+	^	1	5
+	.	1	4
+	+	1	6
+	+	3	15
+	+	6	21
+	+	1	0
+	+	1	4
+
+> ~/learning/bash/practica/functions.sh
 	"	1	0
 	^	1	1
-	.	2	0
-	+	2	0
-
-> /tmp/st/config.h
-	"	74	8
-	^	74	9
-	.	74	8
-	+	8	22
-	+	74	8
-
-> ~/.Xdefaults
-	"	1	1
-	^	7	28
-	.	1	0
-	+	7	27
+	.	13	11
+	+	5	5
+	+	1	9
+	+	3	0
 	+	1	0
+	+	2	0
+	+	1	4
+	+	6	20
+	+	3	13
+	+	6	0
+	+	9	15
+	+	3	12
+	+	9	10
+	+	10	14
+	+	11	18
+	+	12	15
+	+	13	11
 
-> ~/.bash_profile
-	"	1	0
-
-> ~/.config/awesome/themes/default/theme.lua
-	"	58	2
-	^	76	3
-	.	76	2
+> ~/learning/bash/operators.sh
+	"	12	14
+	^	12	15
+	.	12	14
+	+	1	66
+	+	4	0
+	+	2	0
+	+	3	0
+	+	2	1
+	+	4	0
+	+	6	1
+	+	5	24
+	+	4	13
+	+	8	22
+	+	9	29
+	+	10	2
+	+	12	17
+	+	13	1
+	+	12	2
+	+	13	17
+	+	16	22
+	+	17	31
+	+	20	11
+	+	4	10
 	+	20	22
-	+	76	2
+	+	21	35
+	+	24	22
+	+	25	7
+	+	24	6
+	+	25	35
+	+	26	1
+	+	4	16
+	+	8	4
+	+	12	4
+	+	16	4
+	+	20	4
+	+	24	16
+	+	20	16
+	+	16	16
+	+	12	12
+	+	8	16
+	+	12	14
 
-> ~/.vimrc
-	"	228	0
-	^	228	83
-	.	228	82
-	+	228	82
-
-> ~/seder
-	"	12	0
-
-> ~/.tmux.conf
-	"	67	38
-	^	67	39
-	.	67	38
-	+	67	0
-	+	66	37
-	+	67	38
+> ~/learning/bash/comparetwo.sh
+	"	1	3
+	^	1	4
+	.	1	4
+	+	1	9
+	+	4	27
+	+	5	24
+	+	6	1
+	+	4	2
+	+	2	0
+	+	1	6
+	+	2	4
+	+	1	4
