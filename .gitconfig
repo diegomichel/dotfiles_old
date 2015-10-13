@@ -1,3 +1,5 @@
 [user]
-	email = diegomichel@gmail.com
+	email = diego.rubio@agilekoding.com
 	name = Diego Michel Rubio Ramirez
+[push]
+	default = matching

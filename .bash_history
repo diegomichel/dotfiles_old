@@ -1,500 +1,899 @@
-git diff -h
-git diff --help
 ls
-cd
+cd projects/
+ls
+cd seder/
+ls
+sudo service elasticsearch start
+sudo service elasticsearch restart
+systemctl status elasticsearch.service
+journalctl -xe
+su
+npm install
 ls
 ls
-cd agilekoding/
+cd projects/
 ls
-cd ijas_web/
-git pull
-git fetch
-git branch
-git branch 
-git branch requeriments_after_closing
-git status
-git log
-git status
-git branch
-git chekout requirements_after_closing
-git branch requeriments_after_closing
-git checkout requeriments_after_closing
-git log
-git fetch
-git log
-ls
-git status
-git log
-git branch
-git fetch
-git pull origin requeriments_after_closing
-git pull origin requeriments_after_closing
-git log
-ls
-git status
-git checkout development
-git log
-git log
-git checkout requeriments_after_closing
-git diff requeriments_after_closing..development
-git diff requeriments_after_closing..development
-gitk
-eix gitk
-eix git
-su emerge gitg -pv
-sudo emerge gitg -pv
-eix git
-eix git|less
-sudo emerge qgit -pv
-sudo emerge qgit 
-git log --graph --oneline --all
-qgit
-qgit4 
-git log --graph --oneline --all
-ls
-history 
-history  
-history |grep rdp
-history |grep free
-history | grep "free"
-history 
-history | grep "rdp"
-ifconfig 
+cd seder/
 ls
 cd ..
- ..
+cd frontend/
 ls
-cd ..
-cd Downloads/
+ember s --proxy=http://127.0.0.1
+ember s --proxy=http://127.0.0.1:3000
+bower install
+ls bower_components/Jcrop/js/
+vim bower.json 
 ls
-vlc The.Messenger.2015.HDRip.XviD.AC3-EVO/The.Messenger.2015.HDRip.XviD.AC3-EVO.avi 
-cd
+cd bower_components/Jcrop/js/
 ls
-cd agilekoding/
-ls
-cd ijas_web/
-git status
-git log
-git pull
-git log
-git fetch
-git log
-cd
-cd Downloads/
-ls
-su
-vlc The.Messenger.2015.HDRip.XviD.AC3-EVO/The.Messenger.2015.HDRip.XviD.AC3-EVO.avi 
-cd Downloads/
-ls
-ls
-rm Fear*
-ls
-rm Forbidden\ Kiingdom\ \(2015\)\ DvDRip\ x264\ AC3\ 5.1\ \[DDR\]/ -frv
-rm Beyond.The.Mask.2015.HDRip.XviD.AC3-EVO/ -frv
-ls
-rm South.Park.S19E01.HDTV.x264-KILLERS.mp4 
-rm Rhymes\ for\ Young\ Ghouls\ \(2013\)\ \[1080p\]/ -frv
-ls
-rm Pay.the.Ghost.2015.HDRip.XViD-ETRG/ -frv
-rm Insidious.Chapter.3.2015.HDRip.XViD.AC3-ETRG/ -frv
-ls
-rm Me.and.Earl.and.the.Dying.Girl.2015.HDRip.XViD-ETRG/ -frv
-ls
-rtorrent 
-ls
-clar
-cd
-ls
-sl
-clear
-ls
-ps ax
-ps aux
-ls
-ls
-ps aux
-ls
-vlc Bruno\ \(2009\)\ \[1080p\]/Bruno.2009.1080p.BrRip.x264.YIFY.mp4 
-ls
-vlc Closer.to.the.Moon.2014.DVDRip.XviD-ETRG/Closer.to.the.Moon.2014.DVDRip.XviD-ETRG.avi 
-su
-ls
-cd Downloads/
-ls
-ls
-vlc South.Park.S19E02.HDTV.x264-KILLERS\[ettv\]/South.Park.S19E02.HDTV.x264-KILLERS.mp4 
-ls
-cd /mnt/files/
-ls
-df -h
-cd /mnt/files/
-ls
-cd TORRENTS/
-ls
-ls -lh
-rm Batman.Unlimited.Monster.Mayhem.2015.DVDRip.XviD-EVO/ -frv
-rm Backcountry\ \(2014\)/ -frv
-rm Ch* -frv
-ls
-rm San.Andreas.2015.HDRip.XviD.AC3-EVO/ -frv
-ls
-rm Fear.The.Walking.Dead.S01E02.720p.HDTV.x264-KILLERS\[rarbg\]/ -frv
-ls
-ls PACK/
-rm Cleveland.Abduction.2015.HDRip.XviD.AC3-EVO/ -frv
-rm Dark.Places.2015.HDRip.XViD-ETRG/ -frv
-ls
-rm Brother\'s\ Keeper\ \(2013\)\ \[1080p\]/ -frv
-ls
-cd
-ls
-rtorrent 
-ls
-sudo nmtui-connect
-s
-cd Downloads/
-ls
-vlc Evil.Dead.2013.DVDRip.XviD.AC3-TODE/Evil.Dead.2013.DVDRip.XviD.AC3-TODE.avi 
-vlc Maze.Runner-The.Scorch.Trials.2015.HD-TS.XVID.AC3.HQ.Hive-CM8/Maze.Runner-The.Scorch.Trials.2015.HD-TS.XVID.AC3.HQ.Hive-CM8.avi 
-rm Maze.Runner-The.Scorch.Trials.2015.HD-TS.XVID.AC3.HQ.Hive-CM8/ -frv
-ls
-vlc Mission.Impossible.Rogue.Nation.2015.HDRip.XviD.AC3-EVO/Mission.Impossible.Rogue.Nation.2015.HDRip.XviD.AC3-EVO.avi 
-ls
-eix dmi
-emerge demidecode
-sudo emerge demidecode
-sudo emerge sys-apps/demidecode
-sudo emerge sys-apps/dmidecode
-vlc Evil.Dead.2013.DVDRip.XviD.AC3-TODE/Evil.Dead.2013.DVDRip.XviD.AC3-TODE.avi 
-rm Evil.Dead.2013.DVDRip.XviD.AC3-TODE/ -frv
-ls
-sudo dmidecode
-sudo dmidecode|less
-ls
-rm South.Park.S19E02.HDTV.x264-KILLERS\[ettv\]/ -frv
-ls
-vlc The\ Silence\ Of\ The\ Lambs\ \(1991\)\ \[1080p\]/The.Silence.Of.The.Lambs.1991.1080p.BluRay.X264.YIFY.mp4 
-ls
-killall rtorrent
-ls
-killall rtorrent
-ps aux|grep rtorrent
-kill -9 12531
-rtorrent 
-ls
-eix audacity
-vlc Heroes\ Reborn\ S01E01E02\ HDTV\ XviD-FUM\[ettv\]/Heroes.Reborn.S01E01E02.HDTV.XviD-FUM.avi 
-sudo emerge audacity
-sudo nmtui-connect
-audacity 
-ls
-mplayer  revenger30m15500.mp3 
-vlc  revenger30m15500.mp3 
-mv revenger30m15500.mp3 revenger30m15500.ogg
-vlc revenger30m15500.ogg 
-eix ogg
-mplayer  revenger30m15500.ogg 
-audacity 
-audacity 
-ls
-mplayer  fucku.ogg 
-cd 
-ls
-cat .xinitrc 
-cat .config/awesome/
-cat .config/awesome/rc.lua 
-xbacklight 10
-cat .config/awesome/rc.lua 
-cat .config/awesome/rc.lua |grep XF
-vim memory_palaces
-cd
-vim .config/awesome/rc.lua 
-subl .config/awesome/rc.lua 
-vim .i3/config 
-mplayer  Downloads/fucku.ogg 
-mplayer  Downloads/fucku.ogg 
-mplayer  Downloads/fucku.ogg 
-mplayer  Downloads/fucku.ogg 
-mplayer  Downloads/fucku.ogg 
-top -c
-mplayer  Downloads/fucku.ogg 
-ls
-mplayer  fucku.ogg 
-clear
-vlc The\ Silence\ Of\ The\ Lambs\ \(1991\)\ \[1080p\]/
-audacity 
-sudo nmtui-connect
-ls
-rtorrent 
-sudo nmtui-connect
-rtorrent 
-ls
-cd Downloads/
-ls
-vlc Rick.and.Morty.S02E09.HDTV.x264-BATV\[rarbg\]/Rick.and.Morty.S02E09.HDTV.x264-BATV.mp4 
-ls
-rm *.torrent
-clear
-ls
-rm *.ogg
-ls
-rm Mission.Impossible.Rogue.Nation.2015.HDRip.XviD.AC3-EVO/ -frv
+mv jquery.Jcrop.js jquery.jcrop.js
+mv jquery.Jcrop.min.js jquery.jcrop.min.js 
+bower install
 ñs
+s
+cd ..
 ls
-rm Closer.to.the.Moon.2014.DVDRip.XviD-ETRG/ -frv
+cd. .
 ls
-mv Bruno\ \(2009\)\ \[1080p\]/ /mnt/files/
+cd ..
 ls
-mv Windows\ * /mnt/files/ -frv
-mv Windows\ * /mnt/files/ -fv
-sudo nmtui-connect
+cd .
+cd ..
 ls
-rm Evil.Dead.2013.DVDRip.XviD.AC3-TODE/ -frv
+ls node_modules/
+npm install node-sass
+ember s --proxy=http://127.0.0.1:3000
+ember s --proxy=http://127.0.0.1:3000
+npm install node-sass
+npm rebuild node-sass
+npm rebuild node-sass|less
+sudo npm rebuild node-sass|less
+chown diego * -R
+sudo chown diego * -R
+npm update
+rm node_modules/ -frv
+npm update
+ember s --proxy=http://127.0.0.1
+npm reinstall node-sass
+npm install node-sass
+ember s --proxy=http://127.0.0.1
+npm rebuild node-sass
+man st
+�´çç
 ls
-vlc Hidden.2015.HDRip.XViD-ETRG/Hidden.2015.HDRip.XViD-ETRG.avi 
+vim package.json 
 ls
-vlc The.Simpsons.S27E01.HDTV.x264-BATV\[rarbg\]/
+vim bower.json 
+vim package.json 
 ls
-rm The.Simpsons.S27E01.HDTV.x264-BATV\[rarbg\]/
-rm The.Simpsons.S27E01.HDTV.x264-BATV\[rarbg\]/ -frv
-vlc Pixels\ 2015\ 720p\ WEBRip\ x264\ AAC2.0-RARBG.mp4 
-vlc Pixels\ 2015\ 720p\ WEBRip\ x264\ AAC2.0-RARBG.mp4 
-ls
-vlc The.Visit.2015.V2.HC.HDRip.XviD.AC3-EVO/The.Visit.2015.V2.HC.HDRip.XviD.AC3-EVO.avi 
-vlc Hidden.2015.HDRip.XViD-ETRG/Hidden.2015.HDRip.XViD-ETRG.avi 
-rm -frv Hidden.2015.HDRip.XViD-ETRG/
-ls
-rm Pixels\ 2015\ 720p\ WEBRip\ x264\ AAC2.0-RARBG.mp4 
-ls
-rm -frv Family.Guy.S14E02.720p.HDTV.x264-BATV\[rarbg\]/
-rm -frv Heroes\ Reborn\ S01E01E02\ HDTV\ XviD-FUM\[ettv\]/
-ls
-rm -frv Rick.and.Morty.S02E09.HDTV.x264-BATV\[rarbg\]/
-ls
-rm The.*
-rm The.* -frv
-sudo nmtui.connect
-sudo nmtui-connect
-cd
-cd
-cd
-cd
-ls
-ls
-ls
-ls
-mkdir rails
-cd rails/
-ls
-rvm lsit
-ruby -v
-rvm list
-rvm instal ruby-2.2.2
-rvm install ruby-2.2.2
-eix ruby
-emerge ruby -pv
-rvm list
-rvm use .gem
-rvm list
-vim ~/.bash_profile 
-source ~/.bash_profile 
-rvm list
-echo $PATH
-rvm get stable --auto-dotfiles
-sudo rvm get stable --auto-dotfiles
-rvm implode
-sudo rm -frv /usr/local/rvm/
-rvm implode
-gem uninstall rvm
-ls
-cd
-ls
-ls
-ls
-cat .xinitrc 
-tmux
-tmux -a
+npm install nvm
+aptitude search libssl-dev
+node -v
+aptitude search g++
+sudo aptitude install g++
+curl -o- curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.28.0/install.sh | bash
 exit
-tmux 
-and [flags]]
-1 ✗ diego@galactica ~ $ tmux
-and [flags]]
-1 ✗ diego@galactica ~ $ tmux
-man tmux
-g.Bang.Theory.S09E01.720p.HDTV.X264-DIMENSION[eztv].mkv                                     polar-ni
-ls
+bash
 exit
-appexit
+qit
+exi
 exit
-nexit
+rails s
 exit
-exit
-tmux attach-session
-ls
-cd rails/
-ls
-rvm
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-\curl -sSL https://get.rvm.io | bash -s stable
-ls -lh /usr/local/
-man groups
-groups -G diego
-groups diego
-newgrp root
-newgrp root
-newgrp root
-newgrp root
-man newgrp
-sudo usermod -aG root diego
-\curl -sSL https://get.rvm.io | bash -s stable
-sudo mkdir /usr/local/rvm
-chown diego:diego /usr/local/rvm
-chown diego /usr/local/rvm
-sudo chown diego /usr/local/rvm
-sudo mkdir /usr/local/rvm
-\curl -sSL https://get.rvm.io | bash -s stable
-rvm implode
-rvm implode
-sydo rm /usr/local/rvm/ -frv
-sudo rm /usr/local/rvm/ -frv
-ls
-gem remove rvm
-ls
-ls
-gem install rvm
-gem install rdoc
 su
-su
-sudo usermod -aG rvm diego
-man usermod
-sudo usermod -aG rvm root
-source /etc/profile.d/rvm.sh
-cd
-vim .bash_profile 
-exit
-exit
 exit
 tmux
 exit
-rvm
-rvm get stabl --auto-dotfiles
-rvm get stable --auto-dotfiles
-vim .bash_profile 
-source .bash_profile 
-rm
-rvm
-echo $PATH
-vim .bash_profile 
-source .bash_profile 
-echo $PATH
-rvm
-vim .bash_profile 
-source .bash_profile 
-echo PATH
-echo $PATH
-rv
-rvm
-rvm use .gem
-gem list
-rvm list
-rvm install ruby-2.2.2
-sudo rvm install ruby-2.2.2
-rvms rvm install ruby-2.2.2udo
-rvmsudo rvm install ruby-2.2.2
-rvm list
-ruby -v
-rvm use ruby-2.2.2
-ruby -v
-bundler -v
-rvm install bundler
-gem install bundler
-sudo gem install bundler
-bundle -v
-eix rvm
-eix ruby
-emerge --sync
-sudo emerge --sync
-rvm list
-eix ruby
-eix ruby|less
-sudo rvm implode
-rvmsudo rvm implode
-rm /etc/rvmrc 
-sudo rm /etc/rvmrc 
-vim .bashrc 
-vim .bash_profile 
+aptitude search terminus
+sudo aptitude install xfonts-terminus
+man st
+ls
+exit
+st -f Terminus:14
+exit
+st -f Terminus:18
+exit
+st -f Terminus:20
+exit
+st -f Terminus-20
 ls
 ls
+exit
+st -f Terminus-14
+vim .i3/config 
+ls
+exit
+ls
+cd projects/
+ls
+cd frontend/
 ls
 ls
+nvm list
+cd
+cat .bashrc 
+source  .bashrc 
+nvm list
+cd projects/frontend/
+nvm install v0.12.7 --reinstall-packages.from=0.12.6
+nvm install v0.12.7 --reinstall-packages-from=0.12.6
+nvm install v0.12.7 --reinstall-packages-from=node
+nvm install v0.12.7 --reinstall-packages
+node -v
+npm -v
 ls
-ls VirtualBox\ VMs/
+nom install
+npm install
+ls
+ember -s
+ember s
+rm node_modules/ -frv
+nom install
+npm install
+ls
+cd bower_components/Jcrop/css/
+ls
+mv jquery.Jcrop.css jquery.jcrop.css 
+mv jquery.Jcrop.min.css jquery.jcrop.min.css 
+ cd ..
+cd ..
+cd ..
+cd ..
+cd  frontend/
+l
 ls
 ls
+history 
+vim README.md 
+vim README.md 
+cd ..
+cd seder/
+ls
+ember s
+history |less
+ls
+git status
+git diff
+git branch
+git pull
+history  |grep ember 
+history|grep ember 
+history|grep "ember"
+history 
+history|grep "ember"
+history|egrep "ember"
+history 
+history -b
+history
+history
+history -h
+man history
+grep "ember" ~/.bash_history 
+history|egrep -a "ember"
+ember s --proxy=http://127.0.0.1:3000
+rails s 
+rails s --host=127.0.0.1
+history|egrep -a "rails"
+tmux
+zzzzz
+ps aux|grep rails
+kill -9 6483
+rails s --bind=127.0.0.1
+exit
+ps aux|grep ember
+kill -9 6463
+ember s --proxy=http://127.0.0.1:3000
+cd ..
+cd seder/
+ls
+rails -s --bind=127.0.0.1
+exit
+ember s --proxy=http://127.0.0.1
+source ~/.bashrc 
+nvm list
+cd ..
+cd frontend/
+nvm use 0.12.7
+curl tcp://127.0.0.1:3000
+curl http://127.0.0.1:3000
+ember s --proxy=http://127.0.0.1
+rails s --bind=127.0.0.1
+bin/rake db:migrate RAILS_ENV=development
+git branch
+bin/rake db:migrate RAILS_ENV=development --force
+bin/rake db:migrate RAILS_ENV=development -f
+mysql -uroot -p1
+bin/rake db:migrate RAILS_ENV=development -f
+mysql -uroot -p1
+bin/rake db:migrate RAILS_ENV=development -f
+mysql -uroot -p1
+bin/rake db:migrate RAILS_ENV=development -f
+mysql -uroot -p1
+bin/rake db:migrate RAILS_ENV=development -f
+ls
+vim README.rdoc 
+cd ..
+cd seder/
+rake db:drop
+rake db:create
+rake db:migrate
+rake db:seed
+sudo /etc/init.d/elasticsearch start
+rake db:seed
+rake searchkick:reindex:all
+lsof|grep 9200
+ps aux|grep el
+ps aux|grep elas
+sudo /etc/init.d/elasticsearch start
+sudo /etc/init.d/elasticsearch restart
+cat /var/log/dmesg 
+sudo cat /var/log/dmesg 
+1
+sudo cat /var/log/messages
+sudo cat /var/log/elasticsearch/*
+sudo cat /var/log/daemon.log
+aptitude search elasticsearch
+aptitude search java
+aptitude search jre
+vim README.rdoc 
+rake db:rollback
+rake db:rollback
+rake db:rollback
+ls
+mysql -uroot -p1
+mysql -uroot -p1
+rake db:forward
+rake db:forward
+rake db:forward
+rake db:forward
+rake db:forward
+vim README.rdoc 
+searchkick:reindex:all
+rake searchkick:reindex:all
+tmux
+aptitude search jre
+sudo aptitude install default-jre
+ps aux|grep aptitude
+ps aux|grep tux
+ps aux|grep tmux
+tmux attach
+exit
+tmux
+sudo aptitude install default-jre
+sudo aptitude install default-jre
+sudo aptitude install default-jre
+sudo aptitude search systemd
+tmux attach
+exut
+exit
+exit
+exit
+tmux attach
+sudo aptitude remove systemd systemd-sysv
+aptitude search sysvinit
+sudo aptitude install sysvinit
+sudo aptitude remove systemd systemd-sysv
+sudo aptitude install systemd
+sudo reboot
+sudo poweroff
+exit
+tmux attach
+startx
+sudo poweroff
+sudo reboot
+ls
+source .bashrc 
+ls
+ls
+cd projects/frontend/
+ls
+nvm list
+ls
+ls
+cd projects/seder/
+ls
+cat README.rdoc 
+bundle exec rake db:seed
+ls
+ bundle exec rake searchkick:reindex:all
+cat README.rdoc 
+rails -s --bind=127.0.0.1
+ember s --proxy=127.0.0.1:3000
+ls
+ember s --proxy=http://127.0.0.1:3000
+nvm list
+nvm use v0.12.7)
+nvm use v0.12.7
+cd projects/
+ks
+ls
+cd seder/
+ls
+vim config/environments/development.rb 
+rails s --bind=127.0.0.1
+ember s --proxy=http://127.0.0.1:3000
+ember s --proxy=http://192.168.0.119:3000
+rails s --bind=127.0.0.1
+ember s --proxy=http://192.168.0.119:3000
+vim config/environments/development.rb 
+rails s --bind=127.0.0.1
+rails s --bind=127.0.0.1
+ember s --proxy=http://192.168.0.119:3000
+ember s --proxy=http://192.168.0.119:3000
+ember s --proxy=http://192.168.0.119:3000
+ps aux|grep ember
+kill -9 4947
+rails s --bind=192.168.0.119
+rails s --bind=192.168.0.119
+ember s --proxy=http://192.168.0.119:3000
+grep "127.0.0.1" *
+grep "127.0.0.1" * -R
+ls
+ember s --help
+rails s --bind=192.168.0.119
+vim config/environments/development.rb 
+curl 127.0.0.1:3000/api/v1/members
+curl http://127.0.0.1:3000/api/v1/members
+ember s --proxy=http://192.168.0.119:3000
+ember s --proxy=http://127.0.0.1:3000
+rails s --bind=127.0.0.1
+ember s --proxy=http://127.0.0.1:3000
+rails s --bind=127.0.0.1
+ember s --proxy=http://127.0.0.1:3000
+ember s --proxy=http://192.168.0.119:3000
+rails s -b 192.168.0.119
+vim config/environment.js 
+vim config/environments/development.rb ç
+vim config/environments/development.rb 
+vim app/models/registration.rb 
+ls
+ls
+cd projects/seder/
+ls
+vim db/seeds.rb 
+ls
+cd /tmp/
+ls
+cd ..
+ls
+cd
+ls
+cd Downloads/
+lss
+ls
+cd .
+cd ..
+ls
+ls
+df
+cd /media/sf_SHAREDVM/
+ls
+rails s -b 192.168.0.119
+vim app/models/concerns/fingerprint.rb 
+gem install pry
+vim app/models/concerns/fingerprint.rb 
+vim Gemfile
+bundle install
+rails s -b 192.168.0.119
+cd /opt/
+ls
+cd Do
+cd DigitalPersona/
+ls
+cd urusdk-linux/
+ls
+cd Include/
+ls
+vim dpfj.h 
+cd 
+cd projects/
+ls
+cd seder/
+ls
+find . -name "fingerprint.rb"
+vim app/models/concerns/fingerprint.rb 
+tmux
+git status
+diff 
+git diff
+git checkout dev-ember-cli
+git checkout Gemfile
+git checkout app/models/registration
+git checkout app/models/registration.rb
+git checkout config/environments/development.rb
+git checkout db/schema.rb
+git status
+git checkout Gemfile.lock
+git checkout dev-ember-cli
+git status
+git diff app/models/concerns/fingerprint.rb
+vim app/models/concerns/fingerprint.rb
+git diff app/models/concerns/fingerprint.rb
+git add app/models/concerns/fingerprint.rb
+git commit -m "Fixes fingerprint authentication"
+git branch
+git push origin dev-ember-cli
+ls
+vim app/models/registrations/questionnaire.rb 
+git status
+git checkout diego
+git status
+git stash
+git stash apply
+git diff
+git stash pop
+git status
+git checkout config/database.yml
+git stash pop
+git status
+git stash
+git status
+git log
+git stash pop
+git stash pop
+git status
+git diff config/database.yml
+find . -name "fingerprint.rb"
+vim app/models/concerns/fingerprint.rb 
+vim app/models/concerns/fingerprint.rb 
+vim app/models/concerns/fingerprint.rb 
+vim app/models/concerns/fingerprint.rb 
+grep "validate_fingerprint" * -R
+vim app/api/seder/api/v1/profile_authorizations.rb 
+rails s -b 192.168.0.119
+rails s -b 192.168.0.119
+rails s -b 192.168.0.119
+rails s -b 192.168.0.119
+git status
+git branch
+git log
+git status
+vim app/api/seder/api/v1/profile_authorizations.rb 
+rails c
+rails c
+vim Gemfile
+bundle install
+git branch
+rails c
+vim app/api/seder/api/v1/profile_authorizations.rb 
+vim ~/.vimrc 
+vim app/api/seder/api/v1/profile_authorizations.rb 
+vim app/api/seder/api/v1/profile_authorizations.rb 
+vim app/api/seder/api/v1/profile_authorizations.rb 
+vim app/api/seder/api/v1/profile_authorizations.rb 
+tmux attach
+vim app/api/seder/api/v1/profile_authorizations.rb 
+tmux attach
+vim app/api/seder/api/v1/profile_authorizations.rb 
+git diff
+git checkoit app/api/seder/api/v1/profile_authorizations.rb
+git checkout app/api/seder/api/v1/profile_authorizations.rb
+vim app/models/concerns/fingerprint.rb 
+git stash list
+git status
+vim config/environments/development.rb 
+git diff
+vim app/models/registrations/questionnaire.rb 
+vim app/models/registrations.rb 
+vim app/models/registration.rb 
+vim app/models/concerns/fingerprint.rb 
+vim app/models/user.rb 
+vim app/models/concerns/fingerprint.rb 
+rails s -b 192.168.0.119
+su
 cd Downloads/
 ls
 ls
+dpkg -i sublime-text_build-3083_amd64.deb 
+sudo dpkg -i sublime-text_build-3083_amd64.deb 
+cd
 ls
-rm Music/ -frv
+cd projects/
 ls
-ls Des
-ls Descargas/
+cd frontend/
 ls
-rm Descargas/ -frv
+subl .
+cd ..
+cd seder/
+subl .
+exit
 ls
-ls Desktop/
+vim .bashrc 
+rails s -b 192.168.0.119
+rails s -b 192.168.0.119
+source ~/.bashrc 
+git status
+git diff
+git branch
+git status
+git diff
+git status
+git add Gemfile
+git commit -m "Adds gem pry for debbuging"
+git status
+git diff app/api/seder/api/v1/people.rb
+git status
+git diff app/models/concerns/fingerprint.rb
+git add app/models/concerns/fingerprint.rb
+git status
+git diff app/models/registration
+git diff app/models/registration.rb
+git diff config/database.yml
+git status
+git commit -m "Fixes comparision between fingerprints :>"
+cd ..
+cd frontend/
 ls
-rm Desktop/
-rm Desktop/ -frv
+git status
+git diff bower.json
+git diff config/environment.js
+git branch
+git status
+git add bower.json 
+git diff README.md
+git add README.md 
+git commit -m "Adds jquery version to bower.json and adds some documentation about linux setup"
+git status
+git push
+ git config --global push.default matching
+cd ..
+cd seder/
+git status
+git push
+sudo lsusb
+sudo dmesg
+rails s -b 192.168.0.119
+irb
+git status
+git diff app/api/seder/api/v1/people.rb
+git checkout app/api/seder/api/v1/people.rb
+git diff app/api/seder/api/v1/profile_authorizations.rb
+git checkout app/api/seder/api/v1/profile_authorizations.rb
+git status
+git diff app/models/member.rb
+git add app/models/member.rb
+git diff app/models/registration
+git diff app/models/registration.rb
+git commit -m "Fixes rfid identification"
+git status
+cd ..
+cd frontend/
 ls
-ls Downloads/
-lls
+git diff
+git diff
+git add app/views/members/authorization.coffee 
+git commit -m "Fixes nfid card input for chrome and firefox"
+git push
+cd ..
+cd seder/
 ls
-ls agilekoding/
-rm agilekoding/ -frv
+git push
+git status
+git diff app/models/registration
+git diff app/models/registration.rb
+git status
+vim config/environments/development.rb 
+rails s -b 192.168.0.119
+ember s --proxy=http://192.168.0.119:3000
+git status
+git checkout -b fix_auth
+cd ..
+cd frontend/
 ls
-ls rails/
-rm rails/ -frv
-ls screenshots/
-rm screenshots/
-rm screenshots/ -frv
+cd app/templates/
 ls
-ls not
-ls notes/
+cp members/authorization.emblem registrations/
+cd ..
+cd views/
+cp members/authorization.coffee registrations/
+ember s --proxy=http://192.168.0.119:3000
+git status
+git status
+bower install ember#2.0.0 --save
+bower install ember-data#2.0.0 --save
+git status
+ember s --proxy=http://192.168.0.119:3000
+git branch
+git checkout -b upgradeToEmber2
+vim seder-front/templates/activities/form.hbs
+vim app/templates/activities/form.hbs
+ember s --proxy=http://192.168.0.119:3000
 ls
-ls scripts/
-rm scripts/ -frv
-ls
-mv seder  notes/
-mv notasSeder not
-mv not notasSeder
-mv notasSeder notes/
-ls
-ls mps/
-rm mps/ -frv
-ls learning/
-rm learning/ -frv
-ls
-ls
-ls
-ls
-df -h
-ls
-git init
+ls app/templates/
+vim app/templates/activities/form.emblem 
+ember install ember-legacy-views
+bower install ember-legacy-views
+ember install:ember-legacy-views
+ember install ember-legacy-views
+ember update
+git diff
+ember s --proxy=http://192.168.0.119:3000
+bower install ember#2.0.0 --save
+bower install 
+ember s --proxy=http://192.168.0.119:3000
+bower install 
+bower install jquery#2.1.1 --save
+ember s --proxy=http://192.168.0.119:3000
+git status
+git diff app/controllers/registrations/review.coffee
+git status
+git branch
+git branch diego
+git checkout diego
+git status
+git diff app/controllers/registrations/review.coffee
+git add app/controllers/registrations/review.coffee
+git status
+git diff app/templates/activities/form.emblem
+git diff app/templates/members/destroy.emblem
+git status
+git add app/templates/registrations/authorization.emblem
+gut add app/views/registrations/authorization.coffee
+git add app/views/registrations/authorization.coffee
+git commit -m "Adding authorization at the end of editing a member"
+git status
+git stash
+git status
+git rm app/router.coffee 
+git rm app/templates/application.emblem 
+git status
+git status
 git log
-git remote add origin git@bitbucket.org:diegomichel/home.git
-git push -u origin master
-xclip -sel clip < ~/.ssh/id_rsa.pub
-eix xclip
-sudo emerge x11-misc/xclip
-mv VirtualBox\ VMs/ /mnt/files/
-df -h
+git checkout 25f7443425410ae5c3f9822ded4716e8a6d2ac6c
+git log
+git status
+git checkout app/router.coffe
+git checkout app/router.coffee
+git checkout app/router.coffee
+git status
+cd --
+cd projects/
+l
+mv frontend/ frontend-old
+git clone 
+git close git@gitlab.agilekoding.com:seder/frontend.git
+git clone git@gitlab.agilekoding.com:seder/frontend.git
+cd frontend
+git fetch
+git checkout origin diego
+git checkout diego
+git fetch
+git log
+git status
+vim config/environment.js 
+git log
+git log
+ls
+ember s --proxy=http://192.168.0.119:3000
+nvm 
+nvm ls
+npm install
+ember s --proxy=http://192.168.0.119:3000
+bower install
+ember s --proxy=http://192.168.0.119:3000
+mv bower_components/Jcrop/js/jquery.Jcrop.js bower_components/Jcrop/js/jquery.jcrop.js
+mv bower_components/Jcrop/js/jquery.Jcrop.min.js bower_components/Jcrop/js/jquery.jcrop.min.js
+ember s --proxy=http://192.168.0.119:3000
+mv bower_components/Jcrop/css/jquery.Jcrop.min.css bower_components/Jcrop/css/jquery.jcrop.min.css
+cp members/authorization.coffee registrations/
+cd ..
+cd templates/
+cp members/authorization.emblem registrations/
+vim registrations/authorization.emblem 
+cd ..
+cd views/
+cp members/authorization.coffee registrations/
+vim registrations/authorization.coffee 
+cd ...
+cd ..
+cd .
+cd ..
+cd ..
+cd frontend-old/
 ls
 git status
-git add .xinitrc 
-git commit -m "adds xinitrc"
-git add notes
-git commit -m "adds notes"
-cat .gitconfig 
-git add .gitconfig 
+git branch
+git checkout upgradeToEmber2
 git status
+git stash list
+git stash list
+git stash diff
+git stash show -p stash@{0}
+git log
+git status
+git branch
+git branch diego
+git checkout diego
+diff app/views/registrations/authorization.coffee 
+git diff app/views/registrations/authorization.coffee 
+git checkout diego -f
+git status
+git log
+git diff d6a20a0bb0efa0431c50dc38bda0d053293b69c4 1cad978add10487d35ff291d384430c187119c75
+q
+cd ..
+cd frontend
+ls
+cd ..
+cd frontend-old/
+git diff d6a20a0bb0efa0431c50dc38bda0d053293b69c4 1cad978add10487d35ff291d384430c187119c75
+cd ..
+cd frontend
+ls
+cd app/views/
+ls
+cd registrations/
+ls
+vim authorization.coffee 
+cd ..
+cd ..
+cd templates/
+vim registrations/authorization.emblem 
+cd ..
+cd ..
+ls
+history|grep bower
+history|grep ember
+bower install ember-data#1.10.0 --save
+ember s --proxy=http://192.168.0.119:3000
+bower install ember-data#1.13.1 --save
+ember s --proxy=http://192.168.0.119:3000
+bower install ember#1.13.1 --save
+bower install ember#1.10.0 --save
+bower install ember-data#1.0.0-beta.16.1 --save
+ember s --proxy=http://192.168.0.119:3000
+top -c
+cd app/
+ls
+ls controllers/members/authorization.coffee 
+cp controllers/members/authorization.coffee controllers/registrations/
+ls controllers/registrations/
+cd ..
+git status
+git diff app/controllers/registrations/review.coffee
+ember s --proxy=http://192.168.0.119:3000
+rails s -b 192.168.0.119
+git status
+git add  app/controllers/registrations/review.coffee 
+git diff config/environment.js
+git add app/*
+git status
+git branch
+git commit -m "Verifies finger/card when saving"
+git log
+git diff HEAD^^^
+ember s --proxy=http://192.168.0.119:3000
+rails s -b 192.168.0.119
+rails c
+rails c
+rails s -b 192.168.0.119
+git status
+git diff app/controllers/registrations/authorization.coffee
+git status
+git diff app/controllers/registrations/authorization.coffee
+git status
+git diff app/controllers/registrations/authorization.coffee
+git status
+git diff app/controllers/registrations/authorization.coffee
+git add app/controllers/registrations/authorization.coffee
+git diff
+git status app/controllers/registrations/review.coffee
+git add app/controllers/registrations/review.coffee
+git status
+git commit -m "Fixes requires authentification when saving registration"
+git branch
+git push
+cd ..
+cd seder/
+git status
+git diff app/api/seder/api/v1/profile_authorizations.rb
+git add app/api/seder/api/v1/profile_authorizations.rb
+git diff  app/models/member.rb
+git add app/models/member.rb 
+git diff app/models/registration.rb
+git status
+git commit -m "Fixes authentification when saving registration"
+git push
+cd ..
+cd frontend
+git push
+git status
+git branch
+git checkout tick3922
+git checkout -b tick3922
+git status
+git diff
+git status
+git add app/templates/registrations/production-units/form.emblem 
+git commit -m "Changes tag Sistema producto to producto in production units"
+git status
+git diff
+git status
+git diff
+git status
+git add  app/*
+git commit -m "Changes all left behind Sistema Producto to producto strings on whole project"
+git status
+git branch
+git checkout diego
+git merge tick3922
+git push
+ls
+git status
+git fetch
+tmux attach
+git status
+git log
+cd ..
+cd ..
+rails db
+ls
+vim .Xmodmap
+git add .Xmodmap 
+git add .Xmodmap -F
+git add .Xmodmap -f
+git commmit -m "Redirects caplocks to f11, to use f11 as tmux prefix"
+git commit -m "Redirects caplocks to f11, to use f11 as tmux prefix"
+xmodmap ~/.Xmodmap 
+vim .xinitrc 
+git add .xinitrc 
+git commit -m "Making sure Xmodmap loads config"
+vim .tmux.conf 
+git add .tmux.conf 
+git add .tmux.conf  -f
+git commit -m "Changes prefix to F11 which is bind to caplocks :>"
+git push
+cd projects/frontend
+git status
+git fetch
+git log
+git branch
+git log
+git fetch origin/questionnaires
+git fetch origin/questionnaires
+git merge questionnaires
+git merge origin/questionnaires
+git fetch
+git merge origin/questionnaires
+cd ..
+cd seder/
+git status
+git diff app/models/registration.rb
+git fetch
+git merge origin/questionnaires
+vim app/models/registration.rb 
+vim ~/.vimrc 
+cd
+git add .vimrc
+git commit -m "Show line numbers in vim to use 11G"
+vim .vimrc 
+git push
+cd projects/seder/
+git merge origin/questionnaires
+rails s -b 192.168.0.119
+ember s --proxy=http://192.168.0.119:3000
+rails c
+git merge origin/dev-ember-cli
+vim db/schema.rb 
+vim app/models/concerns/fingerprint.rb 
+rake db:schema:dump
+git commit -m "Merge with dev-ember-cli"
+git add .
+git commit -m "Merge with dev-ember-cli"
+git log
+git fetch
+git merge origin/dev-ember-cli
+git log
+ls
+rake db:migrate
+cd ..
+cd frontend
+git fetch
+git merge development
+git merge origin/development
+cd
+l
+ls
+mkdir bin
+git add bin -f
+git commit -m "Adds bin directory, but wouldnt add anything inside of it"
