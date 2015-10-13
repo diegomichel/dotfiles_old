@@ -20,8 +20,10 @@ set ai                  " Auto-indenting off to allow pasting to work by default
 set history=50          " keep 50 lines of command history
 set ruler               " Show the cursor position all the time
 set autoindent
-set noexpandtab
-set ts=4 sw=4
+set expandtab
+set ts=2 sw=2
+set smarttab
+set number
 
 set viminfo='20,\"500   " Keep a .viminfo file.
 
