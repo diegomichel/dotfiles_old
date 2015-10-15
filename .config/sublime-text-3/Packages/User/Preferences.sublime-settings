@@ -1,0 +1,7 @@
+{
+	"folder_exclude_patterns": ["tmp", "dist", ".svn", ".git", ".hg", "CVS", "node_modules", "bower_modules"],
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
