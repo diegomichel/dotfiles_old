@@ -1,5 +1,16 @@
 {
-	"folder_exclude_patterns": ["tmp", "dist", ".svn", ".git", ".hg", "CVS", "node_modules", "bower_modules"],
+	"folder_exclude_patterns":
+	[
+		"tmp",
+		"dist",
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"bower_modules"
+	],
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"
