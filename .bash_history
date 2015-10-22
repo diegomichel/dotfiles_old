@@ -1,58 +1,3 @@
-bower install jquery-zoom --save
-ember s --proxy=http://192.168.0.119:3000
-ember s --proxy=http://192.168.0.119:3000
-ember s --proxy=http://192.168.0.119:3000
-ls
-ls bower_components/jquery-zoom/jquery.zoom.min.js 
-git status
-git diff Brocfile.js
-git add Brocfile.js
-git diff bower.json
-git add bower.json
-git status
-git diff app/components/record-viewer.coffee
-git add app/components/record-viewer.coffee
-git commit -m "Add zoom to uploaded documents"
-git status
-git diff app/components/record-files-gallery.coffee
-git status
-git add app/components/record-files-gallery.coffee 
-git add app/components/record-viewer.coffee 
-git status
-git commit -m "Adds zoom to documents on upload and in gallery"
-git push
-cd ..
-ls
-mkdir cards
-mkdir cards/
-ls
-cd frontend
-git status
-git status
-git diff HEAD^^^^^^
-grep "modal-dialog" * -R
-grep "modal-dialog" app/* -R
-ember s --proxy=http://192.168.0.119:3000
-cd ..
-cd seder/
-ls
-ls
-git status
-cd. .
-cd ..
-cd frontend
-ls
-git status
-git diff
-git log
-git push
-ls
-cd ..
-ember s --proxy=http://192.168.0.119:3000
-rails s -b 192.168.0.119
-rails c
-cd
-cd
 ls
 df -h
 npm install -g mean-cli
@@ -549,3 +494,73 @@ git add .bashrc
 git diff .config/
 git add .config/
 git status
+git add .bash_history 
+git commit -m "update bashrc for fzf"
+git status
+fzf
+fzf
+cd projects/
+ks
+ls
+mkdi depafinder
+mkdir depafinder
+cd depafinder/
+cd
+vim .vimrc 
+ls
+cd home_osx/
+ls
+git clone
+git fetch
+git fetch
+git log
+git branch
+git fetch
+git log
+ls
+ls
+ls
+ls
+ls
+cd .
+cd ..
+ls
+git log
+ls
+git clone https://diegomichel@bitbucket.org/diegomichel/home_osx.git
+rm home_osx/ -frv
+git clone https://diegomichel@bitbucket.org/diegomichel/home_osx.git
+cd home_osx/
+ls
+git log
+cat .bashrc 
+vim ~/.bashrc 
+vim ~/.bashrc 
+CD
+cd ..
+xmodmap .Xmodmap 
+rails c
+ember server --proxy http://localhost:3000
+rails s
+cd
+cd projects/
+cd pro
+cd ..
+ls
+mkdir rent
+cd rent/
+python -v
+ls
+cd home_osx/
+git fetch
+sudo dhclient
+git fetch
+git fetch
+git status
+git log
+ls
+cd ..
+ls
+ls stash/
+git status
+git diff 

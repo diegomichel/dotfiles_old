@@ -319,4 +319,4 @@ call matchadd('ColorColumn', '\%81v', 100)
     "     :mkspell  ~/.vim/spell/en-basic  basic_english_words.txt
     "
     " See :help mkspell
-
+set rtp+=~/.fzf
