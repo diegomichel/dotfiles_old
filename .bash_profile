@@ -84,7 +84,6 @@ done
 
 # Try to keep environment pollution down, EPA loves us.
 unset use_color safe_term match_lhs sh
-setxkbmap es
 export PROMPT_COMMAND='history -a'
 alias testAwesome="Xephyr -screen 800x600 :1 & sleep 1 && DISPLAY=:1.0 awesome && killall Xephyr"
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
