@@ -331,3 +331,5 @@ noremap h <NOP>
 noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
+set vb
+set vb t_vb=
