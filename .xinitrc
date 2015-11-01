@@ -7,6 +7,5 @@ rofi -key-window F12 -key-run F2 &
 #sudo mount -t ntfs-3g -o umask=000 /dev/sdb4 /mnt/files
 #awesome 
 setxkbmap latam
-xmodmap -e "remove Lock = Caps_Lock"
-xmodmap ~/.xmodmap
+setxkbmap -option caps:escape
 i3
