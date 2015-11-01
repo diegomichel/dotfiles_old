@@ -23,3 +23,4 @@ noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
 set vb t_vb=
+execute pathogen#infect() 
