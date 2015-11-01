@@ -321,7 +321,6 @@ call matchadd('ColorColumn', '\%81v', 100)
 set rtp+=~/.fzf
 set background=dark
 color molokai 
-set showcmd
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
@@ -331,5 +330,4 @@ noremap h <NOP>
 noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
-set vb
 set vb t_vb=
