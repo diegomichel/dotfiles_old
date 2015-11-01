@@ -6,7 +6,7 @@ rofi -key-window F12 -key-run F2 &
 #sudo mount /dev/sdb2 /mnt/VMs
 #sudo mount -t ntfs-3g -o umask=000 /dev/sdb4 /mnt/files
 #awesome 
-setxkbmap es
+setxkbmap latam
 xmodmap -e "remove Lock = Caps_Lock"
 xmodmap ~/.xmodmap
 i3
