@@ -43,7 +43,7 @@ client.urgent                #FF0000    #8C5665    #FF0000
 floating_modifier Mod1
 
 # start a terminal
-bindsym Mod1+Return exec st -f Inconsolata\-dz:size=14:style=dz
+bindsym Mod1+Return exec stterm -f Inconsolata\-dz:size=14:style=dz
 
 # kill focused window
 bindsym Mod1+Shift+q kill
