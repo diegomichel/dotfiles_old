@@ -6,6 +6,5 @@ rofi -key-window F12 -key-run F2 &
 #sudo mount /dev/sdb2 /mnt/VMs
 #sudo mount -t ntfs-3g -o umask=000 /dev/sdb4 /mnt/files
 #awesome 
-setxkbmap latam
-setxkbmap -option caps:escape
+setxkbmap latam -option caps:escape
 i3
