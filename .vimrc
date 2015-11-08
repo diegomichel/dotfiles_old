@@ -12,9 +12,6 @@ set number
 syntax on
 
 set rtp+=~/.fzf
-nnoremap <silent> <Leader><Leader> :FZF -m<CR>
-nnoremap <silent> <Leader>s :call fzf#run({ 'tmux_height': winheight('.') / 2, 'sink': 'botright split' })<CR>
-nnoremap <silent> <Leader>v :call fzf#run({ 'tmux_width': winwidth('.') / 2, 'sink': 'vertical botright split' })<CR>
 
 set background=dark
 color molokai
@@ -31,6 +28,9 @@ set vb t_vb=
 execute pathogen#infect()
 " change the mapleader from \ to ,
 let mapleader=","
+nnoremap <silent> <Leader><Leader> :FZF -m<CR>
+nnoremap <silent> <Leader>s :call fzf#run({ 'tmux_height': winheight('.') / 2, 'sink': 'botright split' })<CR>
+nnoremap <silent> <Leader>v :call fzf#run({ 'tmux_width': winwidth('.') / 2, 'sink': 'vertical botright split' })<CR>
 nmap <silent> <leader>ev :e $MYVIMRC<CR>    " edit vimrc
 nmap <silent> <leader>sv :so $MYVIMRC<CR>   " source vimrc
 nmap <silent> <leader>h :noh<CR>   " turn off highlight
@@ -76,3 +76,7 @@ let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme             = 'powerlineish'
 set hidden " Allow switch buffers if one is modified and it ain't saved.
+augroup reload_vimrc " {
+  autocmd!
+  autocmd BufWritePost $MYVIMRC source $MYVIMRC
+augroup END " }
