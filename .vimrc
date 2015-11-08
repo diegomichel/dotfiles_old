@@ -12,6 +12,10 @@ set number
 syntax on
 
 set rtp+=~/.fzf
+nnoremap <silent> <Leader><Leader> :FZF -m<CR>
+nnoremap <silent> <Leader>s :call fzf#run({ 'tmux_height': winheight('.') / 2, 'sink': 'botright split' })<CR>
+nnoremap <silent> <Leader>v :call fzf#run({ 'tmux_width': winwidth('.') / 2, 'sink': 'vertical botright split' })<CR>
+
 set background=dark
 color molokai
 noremap <Up> <NOP>
@@ -24,12 +28,16 @@ noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
 set vb t_vb=
-execute pathogen#infect() 
+execute pathogen#infect()
 " change the mapleader from \ to ,
 let mapleader=","
 nmap <silent> <leader>ev :e $MYVIMRC<CR>    " edit vimrc
 nmap <silent> <leader>sv :so $MYVIMRC<CR>   " source vimrc
 nmap <silent> <leader>h :noh<CR>   " turn off highlight
+nmap <leader>o :enew<CR>
+nmap <leader>h :bnext<CR>
+nmap <leader>l :bprevious<CR>
+nmap <leader>lb :ls<CR>
 set showmatch
 set ignorecase
 set smartcase
@@ -52,7 +60,19 @@ nnoremap . :
 "nmap Q gqap
 cmap w!! w !sudo tee % >/dev/null   " Save with sudo using double !!
 " Easy window navigation
-map <C-h> <C-w>h
-map <C-j> <C-w>j
-map <C-k> <C-w>k
-map <C-l> <C-w>l
+" map <C-h> <C-w>h
+" map <C-j> <C-w>j
+" map <C-k> <C-w>k
+" map <C-l> <C-w>l
+imap jk <ESC>
+let g:airline_left_sep='>'
+let g:airline_right_sep='<'
+let g:airline_detect_modified=1
+let g:airline_detect_paste=1
+let g:airline_detect_iminsert=1
+let g:airline#extensions#tabline#show_buffers = 1
+let g:airline#extensions#tabline#buffer_min_count = 0
+let g:airline#extensions#tabline#fnamemod = ':t'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme             = 'powerlineish'
+set hidden " Allow switch buffers if one is modified and it ain't saved.
