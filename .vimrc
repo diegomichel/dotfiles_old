@@ -1,4 +1,5 @@
 scriptencoding utf-8
+set t_Co=256
 set nocompatible        " Use Vim defaults (much better!)
 set backspace=2                " Allow backspacing over everything in insert mode
 set autoindent                  " Auto-indenting off to allow pasting to work by de
