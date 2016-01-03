@@ -62,6 +62,8 @@ bindsym Mod1+d exec dmenu_run
 # installed.
 # bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
 
+bindsym Mod1+x move workspace to output right
+
 # change focus
 bindsym Mod1+$left focus left
 bindsym Mod1+$down focus down
