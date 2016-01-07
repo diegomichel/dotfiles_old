@@ -11,7 +11,7 @@ set ts=2 sw=2
 set smarttab
 set number
 syntax on
-let mapleader=","
+let mapleader="\<Space>"
 
 " Buffers {{{
 nmap <leader>b :CtrlPBuffer<CR>
@@ -114,6 +114,12 @@ set backupskip=/tmp/*,/private/tmp/*
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set writebackup
 
+" Plugin: vim-indent-guides <leader>ig
+let g:indent_guides_start_level = 2
+let g:indent_guides_guide_size = 1
+
+" Press C-c after delimitMate autocompletes quotes...
+imap <C-c> <CR><Esc>O
 
 set modelines=1
 " vim:foldmethod=marker:foldlevel=0
