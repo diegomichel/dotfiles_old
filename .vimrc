@@ -13,10 +13,18 @@ set number
 syntax on
 let mapleader="\<Space>"
 
+" za toggles folding, zR for all folds
+" Common actions with leader {{{
+  " use leader p to open ctlrp
+  nnoremap <Leader>p :CtrlP<CR>
+  " saves with leader w
+  nnoremap <Leader>w :w<CR>
+" }}}
+
 " Buffers {{{
 nmap <leader>b :CtrlPBuffer<CR>
 nmap <leader>c :bd<CR>
-nmap <leader>o :enew<CR>
+" nmap <leader>o :enew<CR>
 nmap <leader>h :bnext<CR>
 nmap <leader>l :bprevious<CR>
 nmap <leader>lb :ls<CR>
@@ -36,7 +44,6 @@ noremap k <NOP>
 noremap l <NOP>
 set vb t_vb=
 execute pathogen#infect()
-" change the mapleader from \ to ,
 " CtrlP {{{
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 let g:ctrlp_match_window = 'bottom,order:ttb'
