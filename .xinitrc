@@ -18,4 +18,5 @@ fi
 xinput set-button-map 16 3 2 1
 xinput set-button-map 17 3 2 1
 xrandr --output VGA1 --auto --output LVDS1 --auto --right-of VGA1
+~/./xflux -z 45070
 i3
