@@ -16,7 +16,7 @@ let mapleader="\<Space>"
 " za toggles folding, zR for all folds
 " Common actions with leader {{{
   " use leader p to open ctlrp
-  nnoremap <Leader>p :CtrlP<CR>
+  nnoremap <Leader>o :CtrlP<CR>
   " saves with leader w
   nnoremap <Leader>w :w<CR>
   " Copy and paste with leader y, p and d
