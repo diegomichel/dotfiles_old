@@ -7,9 +7,14 @@ function install_rubocop_for_vim {
   cp -frv /tmp/vim-rubocop/* ~/.vim/
 }
 
+function install_autoswap {
+   git clone https://github.com/gioele/vim-autoswap.git ~/.vim/bundle/vim-autoswap
+}
+
 
 
 install_rubocop_for_vim &&
+install_autoswap &&
 
 
   echo "Everything went fine!!"
