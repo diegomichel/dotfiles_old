@@ -20,7 +20,8 @@ PS1="\[\033[01;37m\]\$? \$(if [[ \$? == 0 ]]; then echo \"\[\033[01;32m\]\342\23
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$HOME/.rvm/bin;/home/diego/.rvm/rubies/ruby-2.2.1/lib/:/opt/jdk1.8.0_91/bin:/opt/android-studio/bin;/opt/jdk1.8.0_91/lib" # Add RVM to PATH for scripting
+export JAVA_HOME="/opt/jdk1.8.0_91" # Add RVM to PATH for scripting
 export NVM_DIR="/home/diego/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
@@ -30,6 +31,7 @@ export EDITOR=vim
 eval `dircolors ~/.config/dircolors.256dark`
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 alias ls="ls --color=auto"
+alias balsamiq="env WINEPREFIX=/home/diego/.wine wine C:\\\\Program\\ Files\\\\Balsamiq\\ Mockups\\\\Balsamiq\\ Mockups.exe"
 z(){
   file=$(fzf) && vim ${file}
 }
@@ -37,3 +39,9 @@ z(){
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
       . /etc/bash_completion
 fi
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
+export PS1="\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\] \[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\n ➟ "
+alias r='rails'
+alias babel-node='./node_modules/babel-cli/bin/babel-node.js'
+alias babel='./node_modules/babel-cli/bin/babel.js'
