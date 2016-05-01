@@ -9,14 +9,16 @@ xinput list|grep G15 > /dev/null
 if [ $? -ne 0 ]; then
   echo "No G15 detected setting keyboard language to latam"
   setxkbmap latam -option caps:escape
+  xinput set-button-map 16 1 2 3
+  xinput set-button-map 17 1 2 3
 else
   echo "G15 detected setting keyboard language to us"
   setxkbmap us -option caps:escape
+  xinput set-button-map 16 3 2 1
+  xinput set-button-map 17 3 2 1
 fi
 # get the mouse id from xinput list
 # 3 2 1 inverts mouse buttons
-xinput set-button-map 16 3 2 1
-xinput set-button-map 17 3 2 1
 xrandr --output VGA1 --auto --output LVDS1 --auto --right-of VGA1
 ~/./xflux -z 45070
 i3
