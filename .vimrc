@@ -136,5 +136,6 @@ let g:indent_guides_guide_size = 1
 imap <C-c> <CR><Esc>O
 " Macros
 let @p = 'jkO- binding.pryjk .w'
+let g:mustache_abbreviations = 1
 set modelines=1
 " vim:foldmethod=marker:foldlevel=0
