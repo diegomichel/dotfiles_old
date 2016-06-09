@@ -43,12 +43,13 @@ client.urgent                #FF0000    #8C5665    #FF0000
 floating_modifier Mod1
 
 # start a terminal
-bindsym Mod1+Return exec stterm -f 'Inconsolata\-dz for Powerline':size=14:style=dz -e tmux a
-bindsym Mod1+Shift+Return exec stterm -f 'Inconsolata\-dz for Powerline':size=24:style=dz -e tmux a
+bindsym Mod1+Return exec st -f 'Inconsolata\-dz for Powerline':size=14:style=dz -e tmux a
+bindsym Mod1+Shift+Return exec st -f 'Inconsolata\-dz for Powerline':size=24:style=dz -e tmux a
 bindsym Mod1+F10 exec xinput --set-int-prop 11 "Device Enabled" 8 1
 bindsym Mod1+F9 exec xinput --set-int-prop 11 "Device Enabled" 8 0
 # kill focused window
 bindsym Mod1+Shift+q kill
+bindsym F2 exec rofi -show run -font "snap 10" -fg "#505050" -bg "#000000" -hlfg "#ffb964" -hlbg "#000000" -o 85
 
 #BRIGHTNESS
 bindsym "XF86MonBrightnessDown" exec "xbacklight - 10"
