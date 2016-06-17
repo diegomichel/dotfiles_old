@@ -97,7 +97,7 @@ bindsym Mod1+u split h
 bindsym Mod1+y split v
 
 # enter fullscreen mode for the focused container
-bindsym Mod1+f fullscreen toggle
+bindsym Mod1+space fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym Mod1+s layout stacking
@@ -108,7 +108,7 @@ bindsym Mod1+e layout toggle split
 bindsym Mod1+Shift+space floating toggle
 
 # change focus between tiling / floating windows
-bindsym Mod1+space focus mode_toggle
+bindsym Mod1+z focus mode_toggle
 
 # focus the parent container
 bindsym Mod1+a focus parent
@@ -154,6 +154,22 @@ bindsym Mod1+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+mode "focus" {
+  bindsym $left focus left
+  bindsym $down focus down
+  bindsym $up focus up
+  bindsym $right focus right
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+}
+mode "move" {
+  bindsym $left   move left
+  bindsym $down   move down
+  bindsym $up     move up
+  bindsym $right  move right
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+}
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -178,7 +194,9 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
+bindsym Mod1+f mode "focus"
 bindsym Mod1+r mode "resize"
+bindsym Mod1+m mode "move"
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
