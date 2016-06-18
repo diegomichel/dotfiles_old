@@ -45,3 +45,10 @@ export PS1="\${debian_chroot:+(\$debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]
 alias r='rails'
 alias babel-node='./node_modules/babel-cli/bin/babel-node.js'
 alias babel='./node_modules/babel-cli/bin/babel.js'
+
+#Aliases
+alias b='bundle'
+alias be='bundle exec'
+alias bes='be rails s'
+alias bec='be rails c'
+alias bek='be sidekiq'
