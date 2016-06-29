@@ -52,3 +52,9 @@ alias be='bundle exec'
 alias bes='be rails s'
 alias bec='be rails c'
 alias bek='be sidekiq'
+alias l='less'
+alias apts='aptitude search'
+alias sapti='sudo aptitude install'
+
+# added by Miniconda2 4.0.5 installer
+export PATH="/home/diego/miniconda2/bin:$PATH"
