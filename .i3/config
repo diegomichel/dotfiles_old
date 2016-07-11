@@ -35,6 +35,7 @@ bindsym Mod1+f exec rofi -show window -font "snap 10" -fg "#505050" -bg "#000000
 bindsym "XF86MonBrightnessDown" exec "xbacklight - 10"
 bindsym "XF86MonBrightnessUp" exec "xbacklight + 10"
 
+bindsym Mod1+Pause exec "sudo pm-hibernate"
 
 
 # start dmenu (a program launcher)
