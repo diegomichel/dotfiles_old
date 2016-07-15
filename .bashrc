@@ -20,8 +20,12 @@ PS1="\[\033[01;37m\]\$? \$(if [[ \$? == 0 ]]; then echo \"\[\033[01;32m\]\342\23
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
-export PATH="$PATH:$HOME/.rvm/bin;/home/diego/.rvm/rubies/ruby-2.2.1/lib/:/opt/jdk1.8.0_91/bin:/opt/android-studio/bin;/opt/jdk1.8.0_91/lib:/usr/local/bin/" # Add RVM to PATH for scripting
-export JAVA_HOME="/opt/jdk1.8.0_91" # Add RVM to PATH for scripting
+export JAVA_HOME="/opt/jdk1.8.0_92"
+export PATH="$PATH:$HOME/.rvm/bin:\
+$HOME/miniconda2/bin:\
+$HOME/android-studio/bin:\
+$JAVA_HOME/bin:/opt/android-studio/bin:\
+$JAVA_HOME/lib:/usr/local/bin/"
 export NVM_DIR="/home/diego/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
@@ -55,6 +59,3 @@ alias bek='be sidekiq'
 alias l='less'
 alias apts='aptitude search'
 alias sapti='sudo aptitude install'
-
-# added by Miniconda2 4.0.5 installer
-export PATH="/home/diego/miniconda2/bin:$PATH"
