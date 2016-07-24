@@ -1,0 +1,36 @@
+Make a macro to extract methods and put it on a private clause.
+Make methods with one line.
+
+Use tell dont ask pattern, dont let object logic leak out.
+
+Put related vars into only one var.. for example two dates
+can be put in one only.
+
+avoid hard coupling
+"Methods that take no arguments are superior to methods that take one."
+
+user cover instead of includes when using date ranges.
+
+becareful of class envy, when a class wants to do work of another class.
+
+lear the map inject hack for ruby seems to be super util.
+
+Null object pattern
+
+Hole must be suimple than it parts
+Book: growing objected oriented software guided by test
+
+Make sure when you need to edit something its only on one file!
+
+
+When you to refactor. Refactor when you are going to make a change, and the refactoring make it easier.
+
+1.- God objects
+  Refactor responsabilities from god objects
+2.- churn, instal Gem
+3.- 
+
+Books:
+Clean code: A Handbook of Agile Software Craftmanship
+Refactoring: Improving the Design of Existing Code
+Growing Object-Oriented Software Guided by Tests
