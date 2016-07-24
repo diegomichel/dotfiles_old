@@ -10,10 +10,14 @@
 # past this point for scp and rcp, and it's important to refrain from
 # outputting anything in those cases.
 if [[ $- != *i* ]] ; then
-	# Shell is non-interactive.  Be done now!
-	return
+  # Shell is non-interactive.  Be done now!
+  return
 fi
 
+# Infinite history
+export HISTFILESIZE=
+export HISTSIZE=
+export HISTTIMEFORMAT="[%F %T] "
 
 #source ~/.bash-powerline.sh
 PS1="\[\033[01;37m\]\$? \$(if [[ \$? == 0 ]]; then echo \"\[\033[01;32m\]\342\234\223\"; else echo \"\[\033[01;31m\]\342\234\227\"; fi) $(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u@\h'; fi)\[\033[01;34m\] \w \$\[\033[00m\] "
@@ -25,6 +29,7 @@ export PATH="$PATH:$HOME/.rvm/bin:\
 $HOME/miniconda2/bin:\
 $HOME/android-studio/bin:\
 $JAVA_HOME/bin:/opt/android-studio/bin:\
+$HOME/Android/Sdk/platform-tools/:\
 $JAVA_HOME/lib:/usr/local/bin/"
 export NVM_DIR="/home/diego/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
