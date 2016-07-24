@@ -1,1 +1,5 @@
 projects/
+.vim/
+.bash/git-aware-prompt/
+.config/gtk-2.0/gtkfilechooser.ini
+.vim/bundle
