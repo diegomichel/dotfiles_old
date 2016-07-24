@@ -1,3 +1,4 @@
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 #synclient TapButton1=1
 #synclient TapButton2=2
 #synclient TapButton3=3
@@ -9,6 +10,8 @@ setxkbmap us -option caps:escape
 #xinput set-button-map 17 3 2 1
 # get the mouse id from xinput list
 # 3 2 1 inverts mouse buttons
-xrandr --output DP1 --auto --output HDMI1 --auto --left-of DP1
+cd ~/projects/desktrack/
+bash start.sh &
+cd ~/
 #~/./xflux -z 45070
 i3
