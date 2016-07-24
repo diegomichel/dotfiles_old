@@ -1,0 +1,24 @@
+ls -1 >> ../plugin_list.txt
+Colorizer
+ctrlp.vim
+delimitMate
+javascript-libraries-syntax.vim
+mustache
+Nexus-master
+Rename.vim
+syntastic
+tern_for_vim
+vim-airline
+vim-autoswap
+vim-bundler
+vim-cucumber
+vim-indent-guides
+vim-javascript
+vim-javascript-syntax
+vim-KWEasy-master
+vim-rails
+vim-repeat
+vim-signify
+vim-slim
+vim-surround
+YouCompleteMe
