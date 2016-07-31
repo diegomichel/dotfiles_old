@@ -13,5 +13,7 @@ setxkbmap us -option caps:escape
 cd ~/projects/desktrack/
 bash start.sh &
 cd ~/
+xrandr --output HDMI1 --auto
+xrandr --output HDMI1 --auto --output DP1 --rotate left --auto --left-of HDMI1
 #~/./xflux -z 45070
 i3
