@@ -24,7 +24,7 @@ android-studio
 .dbus
 .dosbox
 .*~
-.zcompdump
+.zcompdump*
 VirtualBox*
 *_scrot.png
 .emacs.d
@@ -60,3 +60,4 @@ Calibre\ Library
 .zsh-update
 .zsh_history
 .zshrc.zni
+.zcompdump-diegopc-5.2-dev-1
