@@ -1,5 +1,5 @@
 [user]
-	email = diegomichel@gmail.com
 	name = Diego Michel Rubio Ramirez
+	email = diegomichel@gmail.com
 [push]
-	default = matching
+	default = simple
