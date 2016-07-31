@@ -116,6 +116,9 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_cucumber_cucumber_args="--profile syntastic"
+nmap <F6> :SyntasticToggleMode<CR>
+
 set wildmenu
 set ttyfast
 " Selects the last inserted test
@@ -137,7 +140,10 @@ imap <C-c> <CR><Esc>O
 " Macros
 let @p = 'jkO- binding.pryjk .w'
 let g:mustache_abbreviations = 1
-let g:colorizer_auto_color = 1
-
+let g:vimrubocop_keymap = 0
+nmap <Leader>r :RuboCop<CR>
 set modelines=1
+au BufEnter *.scss set nocindent
+au BufLeave *.scss set cindent
+let g:colorizer_auto_color = 1
 " vim:foldmethod=marker:foldlevel=0
