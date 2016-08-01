@@ -212,3 +212,5 @@ bar {
 exec i3-config-wizard
 exec google-chrome-beta
 exec_always --no-startup-id xrandr --output HDMI1 --auto --output DP1 --rotate left --auto --left-of HDMI1
+exec main
+exec i3-msg "workspace 1;exec st -f 'pragmatapro':size=14:style=dz -e tmux a"
