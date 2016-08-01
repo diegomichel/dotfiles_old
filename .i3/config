@@ -111,9 +111,11 @@ bindsym Mod1+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym Mod1+minus scratchpad show
 
+set $workspace2 "2: Browser"
+workspace $workspace2 output HDMI1
 # switch to workspace
 bindsym Mod1+1 workspace 1
-bindsym Mod1+2 workspace 2
+bindsym Mod1+2 workspace $workspace2
 bindsym Mod1+3 workspace 3
 bindsym Mod1+4 workspace 4
 bindsym Mod1+5 workspace 5
@@ -125,7 +127,7 @@ bindsym Mod1+0 workspace 10
 
 # move focused container to workspace
 bindsym Mod1+Shift+1 move container to workspace 1
-bindsym Mod1+Shift+2 move container to workspace 2
+bindsym Mod1+Shift+2 move container to workspace $workspace2
 bindsym Mod1+Shift+3 move container to workspace 3
 bindsym Mod1+Shift+4 move container to workspace 4
 bindsym Mod1+Shift+5 move container to workspace 5
@@ -209,8 +211,10 @@ bar {
 #
 # Please remove the following exec line:
 #######################################################################
+
+assign [class="google-chrome-beta"] $workspace2
 exec i3-config-wizard
 exec google-chrome-beta
 exec_always --no-startup-id xrandr --output HDMI1 --auto --output DP1 --rotate left --auto --left-of HDMI1
-exec main
+exec sh ~/tmux/main
 exec i3-msg "workspace 1;exec st -f 'pragmatapro':size=14:style=dz -e tmux a"
