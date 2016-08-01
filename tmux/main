@@ -1,0 +1,14 @@
+#Session - MAIN
+#  Window Local
+#    editor 80%
+#    terminal 20%
+#  Window Remote
+#    terminal 100%
+tmux new-session -d -s MAIN 'zsh -c vi'
+tmux select-window -t MAIN:0
+tmux rename-window -t MAIN:0 'LOCAL'
+tmux split-window -t MAIN:LOCAL -v -c ~/ zsh
+tmux split-window -t MAIN:LOCAL -v -c ~/ zsh
+tmux split-window -t MAIN:LOCAL -v -c ~/ zsh
+tmux new-window -t MAIN:2 -n 'REMOTE' zsh
+tmux select-window -t MAIN:0
