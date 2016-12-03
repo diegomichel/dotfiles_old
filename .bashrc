@@ -11,7 +11,6 @@ alias bek='be sidekiq'
 # that can't tolerate any output.  So make sure this doesn't display
 # anything or bad things will happen !
 
-
 # Test for an interactive shell.  There is no need to set anything
 # past this point for scp and rcp, and it's important to refrain from
 # outputting anything in those cases.
@@ -20,11 +19,8 @@ if [[ $- != *i* ]] ; then
 	return
 fi
 
-
 #source ~/.bash-powerline.sh
 PS1="\[\033[01;37m\]\$? \$(if [[ \$? == 0 ]]; then echo \"\[\033[01;32m\]\342\234\223\"; else echo \"\[\033[01;31m\]\342\234\227\"; fi) $(if [[ ${EUID} == 0 ]]; then echo '\[\033[01;31m\]\h'; else echo '\[\033[01;32m\]\u@\h'; fi)\[\033[01;34m\] \w \$\[\033[00m\] "
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
 
 export PATH="$PATH:$HOME/.rvm/bin;/home/diego/.rvm/rubies/ruby-2.2.1/lib/:/opt/jdk1.8.0_91/bin:/opt/android-studio/bin;/opt/jdk1.8.0_91/lib:/usr/local/bin/" # Add RVM to PATH for scripting
 export JAVA_HOME="/opt/jdk1.8.0_91" # Add RVM to PATH for scripting
@@ -58,3 +54,5 @@ export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:/opt/phanto
 # added by Anaconda2 4.1.0 installer
 export PATH="/home/novo/anaconda2/bin:$PATH"
 export HISTSIZE=""
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

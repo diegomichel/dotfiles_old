@@ -5,7 +5,6 @@
 # that can't tolerate any output.  So make sure this doesn't display
 # anything or bad things will happen !
 
-
 # Test for an interactive shell.  There is no need to set anything
 # past this point for scp and rcp, and it's important to refrain from
 # outputting anything in those cases.
@@ -88,7 +87,9 @@ export PROMPT_COMMAND='history -a'
 alias testAwesome="Xephyr -screen 800x600 :1 & sleep 1 && DISPLAY=:1.0 awesome && killall Xephyr"
 PS1="$PS1"'$([ -n "$TMUX" ] && tmux setenv TMUXPWD_$(tmux display -p "#D" | tr -d %) "$PWD")'
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 source ~/.bashrc
 source ~/.profile
 [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && exec startx
+
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
