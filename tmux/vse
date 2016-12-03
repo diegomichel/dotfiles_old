@@ -1,0 +1,16 @@
+#Session - VSE
+#  Window 1 Local
+#    Vim
+#    Terminal
+#    Console
+#    Server
+#  Window 2 SSH
+#    Terminal
+tmux new-session -d -s VSE 'cd ~/projects/vseinc/ && zsh -c vi'
+tmux select-window -t VSE:1
+tmux rename-window -t VSE:1 'LOCAL'
+tmux split-window -t VSE:LOCAL -v -c ~/projects/vseinc/ zsh
+tmux split-window -t VSE:LOCAL -v -c ~/projects/vseinc/ zsh
+tmux split-window -t VSE:LOCAL -v -c ~/projects/vseinc/ zsh
+tmux new-window -t VSE:2 -n 'REMOTE' zsh
+tmux select-window -t VSE:1
