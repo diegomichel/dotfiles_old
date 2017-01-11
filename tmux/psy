@@ -1,0 +1,16 @@
+#Session - PSY
+#  Window 1 Local
+#    Vim
+#    Terminal
+#    Console
+#    Server
+#  Window 2 SSH
+#    Terminal
+tmux new-session -d -s PSY 'cd ~/projects/PushNotifications/ && zsh -c vi'
+tmux select-window -t PSY:1
+tmux rename-window -t PSY:1 'LOCAL'
+tmux split-window -t PSY:LOCAL -v -c ~/projects/PushNotifications/ zsh
+tmux split-window -t PSY:LOCAL -v -c ~/projects/PushNotifications/ zsh
+tmux split-window -t PSY:LOCAL -v -c ~/projects/PushNotifications/ zsh
+tmux new-window -t PSY:2 -n 'REMOTE' zsh
+tmux select-window -t PSY:1

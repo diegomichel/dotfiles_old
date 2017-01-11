@@ -117,6 +117,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 let g:syntastic_cucumber_cucumber_args="--profile syntastic"
+let g:syntastic_enable_javascript_checker = 0
 nmap <F6> :SyntasticToggleMode<CR>
 
 set wildmenu
