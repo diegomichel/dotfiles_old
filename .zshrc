@@ -32,6 +32,7 @@ alias babel='./node_modules/babel-cli/bin/babel.js'
 
 export NVM_DIR="/home/novo/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export JAVA_HOME="/opt/jdk1.8.0_91"
 export PATH="$PATH:/opt/android-studio/bin/"
 export ANDROID_HOME='/opt/android-sdk-linux'
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:/opt/jdk1.8.0_92/bin/
